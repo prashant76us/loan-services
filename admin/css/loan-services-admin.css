@@ -1,0 +1,63 @@
+.ls-admin-wrap {
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+.ls-dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.ls-stat-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.ls-stat-box h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.ls-stat-number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007cba;
+    margin: 0;
+}
+
+.ls-stat-box.pending .ls-stat-number { color: #f39c12; }
+.ls-stat-box.approved .ls-stat-number { color: #27ae60; }
+.ls-stat-box.rejected .ls-stat-number { color: #e74c3c; }
+
+.ls-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ls-status-pending { background: #f39c12; color: #fff; }
+.ls-status-approved { background: #27ae60; color: #fff; }
+.ls-status-rejected { background: #e74c3c; color: #fff; }
+
+.ls-recent-applications {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ls-recent-applications h2 {
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}

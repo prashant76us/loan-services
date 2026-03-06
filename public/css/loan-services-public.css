@@ -1,0 +1,195 @@
+.ls-application-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.ls-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ls-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.ls-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ls-form-group label {
+    font-weight: 600;
+    color: #333;
+}
+
+.ls-form-group input,
+.ls-form-group select,
+.ls-form-group textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.ls-form-group input:focus,
+.ls-form-group select:focus,
+.ls-form-group textarea:focus {
+    outline: none;
+    border-color: #007cba;
+    box-shadow: 0 0 5px rgba(0,124,186,0.3);
+}
+
+.ls-form-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ls-submit-btn {
+    background: #007cba;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.ls-submit-btn:hover {
+    background: #005a87;
+}
+
+#ls-form-response {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#ls-form-response.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+#ls-form-response.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Loan Calculator Styles */
+.ls-calculator-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.ls-calculator-result {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ls-result-item h4 {
+    margin: 0 0 10px 0;
+    color: #666;
+}
+
+.ls-result-item .ls-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007cba;
+}
+
+/* Loan Types Display */
+.ls-loan-types-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.ls-loan-type-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.ls-loan-type-card:hover {
+    transform: translateY(-5px);
+}
+
+.ls-loan-type-card h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+}
+
+.ls-loan-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.ls-loan-features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ls-loan-features .feature-label {
+    font-weight: 600;
+    color: #666;
+}
+
+.ls-loan-features .feature-value {
+    color: #007cba;
+}
+
+.ls-apply-btn {
+    display: inline-block;
+    background: #007cba;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.ls-apply-btn:hover {
+    background: #005a87;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ls-form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .ls-calculator-result {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .ls-loan-types-grid {
+        grid-template-columns: 1fr;
+    }
+}

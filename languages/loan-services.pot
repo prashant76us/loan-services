@@ -1,0 +1,359 @@
+# Loan Services Plugin
+# Copyright (C) 2024
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Loan Services 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.0\n"
+
+#: loan-services.php:12
+msgid "Loan Services"
+msgstr ""
+
+#: loan-services.php:14
+msgid "Comprehensive loan management system for financial institutions"
+msgstr ""
+
+#: admin/partials/loan-services-admin-dashboard.php:3
+msgid "Loan Services Dashboard"
+msgstr ""
+
+#: admin/partials/loan-services-admin-dashboard.php:17
+msgid "Total Applications"
+msgstr ""
+
+#: admin/partials/loan-services-admin-dashboard.php:23
+msgid "Pending"
+msgstr ""
+
+#: admin/partials/loan-services-admin-dashboard.php:29
+msgid "Approved"
+msgstr ""
+
+#: admin/partials/loan-services-admin-dashboard.php:35
+msgid "Rejected"
+msgstr ""
+
+#: admin/partials/loan-services-admin-dashboard.php:41
+msgid "Recent Applications"
+msgstr ""
+
+#: admin/partials/loan-services-admin-loan-applications.php:5
+msgid "Loan Applications"
+msgstr ""
+
+#: admin/partials/loan-services-admin-loan-applications.php:6
+msgid "Export"
+msgstr ""
+
+#: admin/partials/loan-services-admin-loan-types.php:5
+msgid "Loan Types"
+msgstr ""
+
+#: admin/partials/loan-services-admin-loan-types.php:6
+msgid "Add New"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:3
+msgid "Loan Services Settings"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:17
+msgid "Settings saved."
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:32
+msgid "General"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:33
+msgid "Email"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:34
+msgid "Payment"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:35
+msgid "Notifications"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:40
+msgid "Company Name"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:49
+msgid "Currency"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:58
+msgid "Date Format"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:67
+msgid "Minimum Credit Score"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:75
+msgid "Minimum credit score required for loan approval"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:84
+msgid "From Email"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:93
+msgid "From Name"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:102
+msgid "Admin Notifications"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:106
+msgid "Send email notifications to admin for new applications"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:115
+msgid "Enable Online Payments"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:119
+msgid "Allow customers to make payments online"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:124
+msgid "Payment Gateway"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:134
+msgid "Enable SMS Notifications"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:138
+msgid "Send SMS notifications to customers"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:143
+msgid "Twilio Account SID"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:152
+msgid "Twilio Auth Token"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:161
+msgid "Twilio Phone Number"
+msgstr ""
+
+#: admin/partials/loan-services-admin-settings.php:172
+msgid "Save Settings"
+msgstr ""
+
+#: public/partials/loan-application-form.php:3
+msgid "Apply for a Loan"
+msgstr ""
+
+#: public/partials/loan-application-form.php:10
+msgid "First Name *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:16
+msgid "Last Name *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:23
+msgid "Email Address *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:29
+msgid "Phone Number *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:36
+msgid "Loan Type *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:38
+msgid "Select Loan Type"
+msgstr ""
+
+#: public/partials/loan-application-form.php:53
+msgid "Loan Amount *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:60
+msgid "Loan Term (Months) *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:66
+msgid "Monthly Income *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:73
+msgid "Employment Status *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:75
+msgid "Select Status"
+msgstr ""
+
+#: public/partials/loan-application-form.php:76
+msgid "Salaried"
+msgstr ""
+
+#: public/partials/loan-application-form.php:77
+msgid "Self Employed"
+msgstr ""
+
+#: public/partials/loan-application-form.php:78
+msgid "Business Owner"
+msgstr ""
+
+#: public/partials/loan-application-form.php:79
+msgid "Retired"
+msgstr ""
+
+#: public/partials/loan-application-form.php:85
+msgid "Years in Current Employment"
+msgstr ""
+
+#: public/partials/loan-application-form.php:91
+msgid "Address *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:97
+msgid "City *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:102
+msgid "State *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:107
+msgid "ZIP Code *"
+msgstr ""
+
+#: public/partials/loan-application-form.php:114
+msgid "Credit Score (if known)"
+msgstr ""
+
+#: public/partials/loan-application-form.php:119
+msgid "Submit Application"
+msgstr ""
+
+#: public/partials/loan-calculator.php:3
+msgid "Loan EMI Calculator"
+msgstr ""
+
+#: public/partials/loan-calculator.php:7
+msgid "Loan Amount"
+msgstr ""
+
+#: public/partials/loan-calculator.php:15
+msgid "Interest Rate (% p.a.)"
+msgstr ""
+
+#: public/partials/loan-calculator.php:23
+msgid "Loan Term (months)"
+msgstr ""
+
+#: public/partials/loan-calculator.php:31
+msgid "Calculate EMI"
+msgstr ""
+
+#: public/partials/loan-calculator.php:37
+msgid "Monthly EMI"
+msgstr ""
+
+#: public/partials/loan-calculator.php:43
+msgid "Total Interest"
+msgstr ""
+
+#: public/partials/loan-calculator.php:49
+msgid "Total Payment"
+msgstr ""
+
+#: public/partials/loan-types.php:3
+msgid "Our Loan Products"
+msgstr ""
+
+#: public/partials/loan-types.php:16
+msgid "Loan Amount:"
+msgstr ""
+
+#: public/partials/loan-types.php:23
+msgid "Interest Rate:"
+msgstr ""
+
+#: public/partials/loan-types.php:29
+msgid "Loan Term:"
+msgstr ""
+
+#: public/partials/loan-types.php:36
+msgid "Processing Fee:"
+msgstr ""
+
+#: public/partials/loan-types.php:43
+msgid "Eligibility:"
+msgstr ""
+
+#: public/partials/loan-types.php:52
+msgid "Apply Now"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:3
+msgid "Check Your Loan Eligibility"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:7
+msgid "Monthly Income"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:12
+msgid "Employment Type"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:14
+msgid "Select Employment Type"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:15
+msgid "Salaried"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:16
+msgid "Self Employed"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:17
+msgid "Business"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:22
+msgid "Credit Score"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:27
+msgid "Existing Loans"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:29
+msgid "No"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:30
+msgid "Yes"
+msgstr ""
+
+#: public/partials/loan-eligibility-checker.php:33
+msgid "Check Eligibility"
+msgstr ""
